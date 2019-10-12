@@ -18,8 +18,6 @@ namespace agenteapi
             return osInformations;
         }
 
-
-
         private string GetOperationSystem()
         {
             return System.Runtime.InteropServices.RuntimeInformation.OSDescription;

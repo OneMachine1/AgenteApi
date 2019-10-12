@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json; 
 
 namespace agenteapi.Controllers
 {
@@ -12,11 +13,12 @@ namespace agenteapi.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<String> Get()
         {
             var os = new SystemInformationService().GetOperationSystemInformationService();
             
-            return new string[] { "osName", os.oSName, "hostName", os.hostName , "userName", os.userName};
+            string output = JsonConvert.SerializeObject(os);
+            return output.ToString();
         }
 
        

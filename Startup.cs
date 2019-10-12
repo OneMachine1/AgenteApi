@@ -41,7 +41,7 @@ namespace agenteapi
                 app.UseHsts();
             }
             app.UseCors(builder =>
-                builder.WithOrigins("https://locahost:5001")
+                builder.WithOrigins("*")
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials());

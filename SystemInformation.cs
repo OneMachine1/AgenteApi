@@ -6,19 +6,19 @@ namespace agenteapi
 {
     class SystemInformation
     {
-        public string oSName { get; set; }
-        public string memory { get; set; }
+        public string Os { get; set; }
+        public string Memory { get; set; }
 
-        public string hostName { get; set;}
+        public string Host { get; set;}
 
-        public string userName { get; set;}
+        public string User { get; set;}
 
-       public SystemInformation(string oSName, string memory, string hostName, string userName)
+       public SystemInformation(string Os, string Memory, string Host, string User)
         {
-            this.oSName = oSName;
-            this.memory = memory;
-            this.hostName = hostName;
-            this.userName = userName;
+            this.Os = Os;
+            this.Memory = Memory;
+            this.Host = Host;
+            this.User = User;
         }
 
     }

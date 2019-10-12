@@ -13,7 +13,8 @@ namespace agenteapi
             var systemOperational = GetOperationSystem();
             var memory = GetMemoryInfor();
             var ip = GetIpaddres();
-            var osInformations = new SystemInformation(systemOperational, memory, ip);
+            var osInformations = new SystemInformation(systemOperational, memory, ip, GetUserName());
+
             return osInformations;
         }
 
@@ -37,10 +38,16 @@ namespace agenteapi
         public string GetIpaddres()
         {
             //pegar so primeiro
-            var ip = new RunCommand().RunTask("ifconfig");
+            var ip = new RunCommand().RunTask("hostname");
             
             return ip;
         }
+
+         public string GetUserName()
+        {
+            return new RunCommand().RunTask("whoami");
+        }
+
 
     }
 }

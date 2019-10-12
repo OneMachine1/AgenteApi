@@ -9,13 +9,16 @@ namespace agenteapi
         public string oSName { get; set; }
         public string memory { get; set; }
 
-        public string ipAddress { get; set;}
+        public string hostName { get; set;}
 
-       public SystemInformation(string oSName, string memory, string ipAddres)
+        public string userName { get; set;}
+
+       public SystemInformation(string oSName, string memory, string hostName, string userName)
         {
             this.oSName = oSName;
             this.memory = memory;
-            this.ipAddress = ipAddres;
+            this.hostName = hostName;
+            this.userName = userName;
         }
 
     }

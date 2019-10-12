@@ -1,0 +1,14 @@
+/home/marcosrufino/dotnetcore/agenteapi/bin/Debug/netcoreapp2.2/agenteapi.deps.json
+/home/marcosrufino/dotnetcore/agenteapi/bin/Debug/netcoreapp2.2/agenteapi.runtimeconfig.json
+/home/marcosrufino/dotnetcore/agenteapi/bin/Debug/netcoreapp2.2/agenteapi.runtimeconfig.dev.json
+/home/marcosrufino/dotnetcore/agenteapi/bin/Debug/netcoreapp2.2/agenteapi.dll
+/home/marcosrufino/dotnetcore/agenteapi/bin/Debug/netcoreapp2.2/agenteapi.pdb
+/home/marcosrufino/dotnetcore/agenteapi/obj/Debug/netcoreapp2.2/agenteapi.csprojAssemblyReference.cache
+/home/marcosrufino/dotnetcore/agenteapi/obj/Debug/netcoreapp2.2/agenteapi.csproj.CoreCompileInputs.cache
+/home/marcosrufino/dotnetcore/agenteapi/obj/Debug/netcoreapp2.2/agenteapi.RazorAssemblyInfo.cache
+/home/marcosrufino/dotnetcore/agenteapi/obj/Debug/netcoreapp2.2/agenteapi.RazorAssemblyInfo.cs
+/home/marcosrufino/dotnetcore/agenteapi/obj/Debug/netcoreapp2.2/agenteapi.AssemblyInfoInputs.cache
+/home/marcosrufino/dotnetcore/agenteapi/obj/Debug/netcoreapp2.2/agenteapi.AssemblyInfo.cs
+/home/marcosrufino/dotnetcore/agenteapi/obj/Debug/netcoreapp2.2/agenteapi.RazorTargetAssemblyInfo.cache
+/home/marcosrufino/dotnetcore/agenteapi/obj/Debug/netcoreapp2.2/agenteapi.dll
+/home/marcosrufino/dotnetcore/agenteapi/obj/Debug/netcoreapp2.2/agenteapi.pdb
